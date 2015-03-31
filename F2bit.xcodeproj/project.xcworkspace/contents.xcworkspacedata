@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:F2bitSequence.xcodeproj">
+      location = "self:F2bit.xcodeproj">
    </FileRef>
 </Workspace>

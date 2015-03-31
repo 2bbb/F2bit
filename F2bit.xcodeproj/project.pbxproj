@@ -23,8 +23,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		95B0A9501ACB58EC0045636C /* F2bitSequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = F2bitSequence; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B0A9501ACB58EC0045636C /* F2bit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = F2bit; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B0A9531ACB58EC0045636C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		95B0A95A1ACB59680045636C /* F2bit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = F2bit.h; sourceTree = "<group>"; };
+		95B0A95B1ACB59C10045636C /* Definitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Definitions.h; sourceTree = "<group>"; };
+		95B0A95C1ACB59DE0045636C /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +52,7 @@
 		95B0A9511ACB58EC0045636C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				95B0A9501ACB58EC0045636C /* F2bitSequence */,
+				95B0A9501ACB58EC0045636C /* F2bit */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				95B0A9531ACB58EC0045636C /* main.cpp */,
+				95B0A95B1ACB59C10045636C /* Definitions.h */,
+				95B0A95C1ACB59DE0045636C /* Utilities.h */,
+				95B0A95A1ACB59680045636C /* F2bit.h */,
 			);
 			path = F2bitSequence;
 			sourceTree = "<group>";
@@ -65,9 +71,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		95B0A94F1ACB58EC0045636C /* F2bitSequence */ = {
+		95B0A94F1ACB58EC0045636C /* F2bit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95B0A9571ACB58EC0045636C /* Build configuration list for PBXNativeTarget "F2bitSequence" */;
+			buildConfigurationList = 95B0A9571ACB58EC0045636C /* Build configuration list for PBXNativeTarget "F2bit" */;
 			buildPhases = (
 				95B0A94C1ACB58EC0045636C /* Sources */,
 				95B0A94D1ACB58EC0045636C /* Frameworks */,
@@ -77,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = F2bitSequence;
+			name = F2bit;
 			productName = F2bitSequence;
-			productReference = 95B0A9501ACB58EC0045636C /* F2bitSequence */;
+			productReference = 95B0A9501ACB58EC0045636C /* F2bit */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 95B0A94B1ACB58EC0045636C /* Build configuration list for PBXProject "F2bitSequence" */;
+			buildConfigurationList = 95B0A94B1ACB58EC0045636C /* Build configuration list for PBXProject "F2bit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				95B0A94F1ACB58EC0045636C /* F2bitSequence */,
+				95B0A94F1ACB58EC0045636C /* F2bit */,
 			);
 		};
 /* End PBXProject section */
@@ -202,21 +208,21 @@
 		95B0A9581ACB58EC0045636C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = F2bit;
 			};
 			name = Debug;
 		};
 		95B0A9591ACB58EC0045636C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = F2bit;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		95B0A94B1ACB58EC0045636C /* Build configuration list for PBXProject "F2bitSequence" */ = {
+		95B0A94B1ACB58EC0045636C /* Build configuration list for PBXProject "F2bit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95B0A9551ACB58EC0045636C /* Debug */,
@@ -225,7 +231,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95B0A9571ACB58EC0045636C /* Build configuration list for PBXNativeTarget "F2bitSequence" */ = {
+		95B0A9571ACB58EC0045636C /* Build configuration list for PBXNativeTarget "F2bit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95B0A9581ACB58EC0045636C /* Debug */,
